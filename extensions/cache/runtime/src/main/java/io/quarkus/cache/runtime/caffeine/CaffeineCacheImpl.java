@@ -29,7 +29,8 @@ import io.quarkus.cache.runtime.NullValueConverter;
 import io.smallrye.mutiny.Uni;
 
 /**
- * This class is an internal Quarkus cache implementation. Do not use it explicitly from your Quarkus application. The public
+ * This class is an internal Quarkus cache implementation using Redis. Do not use it explicitly from your Quarkus application.
+ * The public
  * methods signatures may change without prior notice.
  */
 public class CaffeineCacheImpl extends AbstractCache implements CaffeineCache {
